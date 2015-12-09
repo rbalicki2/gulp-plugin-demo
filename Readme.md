@@ -9,6 +9,7 @@ Check out the various steps like follows:
 ```js
     git checkout -b master stepN
     # e.g. git checkout -b master step1
+    rm -rf dest && gulp && cat dest/secret-code.txt
 ```
 
 ## What we'll build
