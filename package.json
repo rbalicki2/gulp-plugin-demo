@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "gulp": "^3.9.0",
+    "through2": "^2.0.0"
+  }
+}
