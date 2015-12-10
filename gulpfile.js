@@ -28,13 +28,11 @@ function hooverDam () {
 
   // use stream.once to not cause an infinite loop
   stream.once('pipe', function (source) {
-    // uncaught errors will result in a thrown exception, but we don't want that.
-    // so, we can unpipe the stream, add an error handler, and then repipe it
-    console.log('The stream was piped');
+    // uncaught errors will result in a thrown exception, which we don't want.
+    // so, we add an error handler to the upstream pipe
+    console.log('src.pipe(hooverDam) called');
 
-    source.unpipe(stream);
     source.on('error', errorHandler);
-    source.pipe(stream);
 
   });
 

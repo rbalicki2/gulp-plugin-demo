@@ -22,7 +22,9 @@ Check out the various steps like follows:
 ## Want more info?
 
 [https://nodejs.org/api/stream.html](Node's Stream API)
+
 [https://github.com/substack/stream-handbook](Stream handbook)
+
 [https://github.com/rvagg/through2](through2)
 
 Or hit me up at robert.balicki@gmail.com
